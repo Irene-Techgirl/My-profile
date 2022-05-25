@@ -35,7 +35,7 @@ hr{
 
   border-style: none;
     border-top-style: dotted;
-    border-color: #EAF6F6;
+    border-color: #FAD4D4;
     border-width: 10px;
     width: 5%;
     display: inline-block;
@@ -54,7 +54,7 @@ a{
 }
 
 a:hover{
-  color: #EAF6F6;
+  color: #FAD4D4;
 }
 
 .top-container{
