@@ -1,12 +1,9 @@
-
-
-
-
-body{
+.body-struc{
   color: #40514E;
   margin: 0px;
   text-align: center;
 font-family: 'Merriweather', serif;
+position: relative;
 }
 
 h1{
@@ -32,13 +29,12 @@ h3{
   color: #EF9F9F;
 }
 
-hr{
-
-  border-style: none;
-    border-top-style: dotted;
+.h-line{
+    border-style: none;
+    border-top: 1px dotted;
     border-color: #FAD4D4;
     border-width: 10px;
-    width: 5%;
+    width: 10%;
     display: inline-block;
     margin: 100px auto;
 }
@@ -62,15 +58,18 @@ a:hover{
  background-color: #FFF2F2;
  position: relative;
  padding-top: 100px;
+ text-align: center;
+
 }
 .middle-container{
 margin: 100px 0;
 }
 
-.bottom-container{
+.bottom-con{
  background-color: #FAD4D4;
- padding: 50px 0 20px;
+ padding: 50px 0px 20px 0px;
   }
+
 
 
   .code-red{
@@ -88,8 +87,13 @@ margin: 40px auto 60px;
     text-align: left;
 
   }
+
+  .skills{
+
+    text-align: center;
+  }
   .frontend{
-    width: 25%;
+    width: 30%;
     float: left;
     margin-right: 30px
   }
@@ -155,6 +159,19 @@ margin-bottom: 50px;
 }
 .bottom-cloud{
   position: absolute;
-  left: 200px;
+  left: 100px;
 
 }
+
+.footer-link{
+  color:#F47C7C;
+}
+
+
+
+
+
+ 
+
+ 
+
